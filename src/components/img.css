@@ -1,0 +1,12 @@
+.img-logo {
+    max-width: 12rem;
+    filter: drop-shadow(5px 5px 10px #289957);
+}
+.img-logo:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 10px #4b4e4d);
+}
+.header{
+    background-color: darkgreen;
+}
