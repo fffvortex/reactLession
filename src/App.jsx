@@ -5,6 +5,7 @@ import { Fragment, useState } from "react"; // либо указание пус�
 import IntroSection from "./components/IntroSection";
 import TabsSection from "./components/TabsSection";
 import FeedbackSection from "./components/FeedbackSection";
+import MySection from "./components/MySection";
 
 export default function App() {
   const [tab, setTab] = useState("feedback");
@@ -25,8 +26,10 @@ export default function App() {
         {tab === "feedback" && (
           <>
             <FeedbackSection />
+            <MySection/>
           </>
         )}
+
       </main>
     </Fragment>
   );
